@@ -1,0 +1,9 @@
+node_modules
+.DS_Store
+
+# 构建产物（由 npm run build 生成）
+dist
+
+# 抓取缓存：build/content 下是 7wate/wiki 的书摘原文（CC BY-SA 4.0），
+# 属于可再生的第三方内容，不入库。需要时执行 `node build/fetch.js` 重新抓取。
+build/content

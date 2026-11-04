@@ -1,0 +1,15 @@
+{
+  "name": "wiki-book-site",
+  "version": "1.0.0",
+  "description": "基于 7wate/wiki Book 书库的纯静态在线阅读网站",
+  "type": "module",
+  "scripts": {
+    "fetch": "node build/fetch.js",
+    "build": "node build/generate.js",
+    "serve": "node build/serve.js",
+    "preview": "node build/serve.js"
+  },
+  "devDependencies": {
+    "marked": "^12.0.2"
+  }
+}
